@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pyco-lang"
+version = "0.0.1"
+description = "A python-inspired, statically typed programming language."
+authors = ["vcokltfre <vcokltfre@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/vcokltfre/pyco"
+readme = "README.md"
+packages = [
+    { include = "pyco" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+loguru = "^0.5.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
